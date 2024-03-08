@@ -1,4 +1,4 @@
-# capacitor-secure-storage
+# capacitor-ios-silent-notifications
 
 This plugin for [Capacitor 5+](https://capacitorjs.com) provides support for silent (data only) notifications on iOS.
 
