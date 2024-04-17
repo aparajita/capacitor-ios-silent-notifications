@@ -1,6 +1,6 @@
 {
   "name": "@aparajita/capacitor-ios-silent-notifications",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Capacitor 5+ plugin that provides silent notification support for iOS",
   "author": "Aparajita Fishman",
   "license": "MIT",
