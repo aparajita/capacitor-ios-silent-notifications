@@ -1,6 +1,6 @@
 # capacitor-ios-silent-notifications
 
-This plugin for [Capacitor 5+](https://capacitorjs.com) provides support for silent (data only) notifications on iOS.
+This plugin for [Capacitor 6+](https://capacitorjs.com) provides support for silent (data only) notifications on iOS.
 
 ## Installation
 
