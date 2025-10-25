@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/named
 import { defineConfig } from 'rollup'
 
 export default defineConfig({
@@ -8,18 +7,18 @@ export default defineConfig({
     {
       file: 'dist/plugin.js',
       format: 'iife',
-      name: 'capacitorIosSilentNotifications',
+      name: 'capacitorSecureStorage',
       globals: {
         '@capacitor/core': 'capacitorExports',
         tslib: 'tslib',
       },
-      sourcemap: !!process.env.SOURCE_MAP,
+      sourcemap: Boolean(process.env.SOURCE_MAP),
       inlineDynamicImports: true,
     },
     {
-      file: 'dist/plugin.cjs.js',
+      file: 'dist/plugin.cjs',
       format: 'cjs',
-      sourcemap: !!process.env.SOURCE_MAP,
+      sourcemap: Boolean(process.env.SOURCE_MAP),
       inlineDynamicImports: true,
     },
   ],

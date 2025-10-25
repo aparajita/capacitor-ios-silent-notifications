@@ -1,7 +1,11 @@
 import Capacitor
 
 @objc(IosSilentNotifications)
-public class IosSilentNotifications: CAPPlugin {
+public class IosSilentNotifications: CAPPlugin, CAPBridgedPlugin {
+  public let identifier = "IosSilentNotifications"
+  public let jsName = "IosSilentNotifications"
+  public let pluginMethods: [CAPPluginMethod] = []
+
   override public func load() {
     NotificationCenter.default.addObserver(
       forName: Notification.Name("silentNotification"),

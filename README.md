@@ -1,6 +1,8 @@
+<div class="markdown-body">
+
 # capacitor-ios-silent-notifications
 
-This plugin for [Capacitor 6+](https://capacitorjs.com) provides support for silent (data only) notifications on iOS.
+This plugin for [Capacitor 7+](https://capacitorjs.com) provides support for silent (data only) notifications on iOS.
 
 ## Installation
 
@@ -58,3 +60,5 @@ In your app’s `AppDelegate.swift` file, add the following code to the `AppDele
     completionHandler(UIBackgroundFetchResult.newData)
   }
 ```
+
+</div>
