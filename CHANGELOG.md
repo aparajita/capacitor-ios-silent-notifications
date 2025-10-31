@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [3.0.0](https://github.com/aparajita/capacitor-ios-silent-notifications/compare/v2.0.1...v3.0.0) (2025-10-31)
+
+
+### ⚠ BREAKING CHANGES
+
+* upgrade to Capacitor 7
+* upgrade to Capacitor 7, modernize
+
+### Features
+
+* upgrade to Capacitor 7 ([ce2fc46](https://github.com/aparajita/capacitor-ios-silent-notifications/commit/ce2fc469e9b80fec660dc44479fa2290f0269deb))
+* upgrade to Capacitor 7, modernize ([ca2d752](https://github.com/aparajita/capacitor-ios-silent-notifications/commit/ca2d752ca45ff121d4088192326af14c76128e1b))
+
 ## [2.0.1](https://github.com/aparajita/capacitor-ios-silent-notifications/compare/v2.0.0...v2.0.1) (2024-07-17)
 
 
